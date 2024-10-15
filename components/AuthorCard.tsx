@@ -1,10 +1,9 @@
-import { useContext, useEffect, useRef } from 'react'
 import Image from './Image'
 import SocialIcon from './social-icons'
 import siteMetadata from '@/data/siteMetadata'
 
 const AuthorCard = ({ content }) => {
-  const { author, avatar, occupation, company, email, github, location } = siteMetadata
+  const { avatar, occupation, company, email, github, location } = siteMetadata
 
   return (
     <div>
@@ -26,7 +25,7 @@ const AuthorCard = ({ content }) => {
                   text-2xl
                   font-bold leading-8 tracking-tight sm:text-3xl md:text-4xl"
           >
-            {author}
+            {content.author}
           </h3>
           <div className="md:text-md text-base text-gray-500 dark:text-gray-400">{occupation}</div>
           <div className="md:text-md text-base text-gray-500 dark:text-gray-400">{company}</div>
