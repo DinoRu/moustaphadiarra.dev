@@ -1,5 +1,3 @@
-import clsx from 'clsx'
-import Link from 'next/link'
 import { Image } from '../ui/image'
 
 export function Logo() {
