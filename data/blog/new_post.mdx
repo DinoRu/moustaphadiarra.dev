@@ -1,0 +1,82 @@
+---
+title: Flutter for Beginners
+date: '2024-09-25'
+tags: ['Flutter', 'Dart', 'Android', 'ios', 'Android Studion']
+images: ['/static/images/flutter-for-beginners.png']
+draft: false
+summary: This tutorial will explain you all things that you must know befor coding flutter app.
+---
+
+## Introduction
+
+Welcome to Flutter for Beginners, the perfect starting point for anyone looking to dive into mobile app development with Flutter. Whether you're a complete beginner or have experience with other frameworks, this tutorial will guide you through the basics of Flutter, one of the fastest-growing tools for building cross-platform apps.
+
+In this tutorial, you'll learn how to set up your development environment, understand the fundamentals of the Flutter framework, and create your first app that runs on both Android and iOS. With Flutter's rich set of pre-built widgets and its reactive architecture, you'll quickly see why it's a favorite among developers for crafting beautiful and performant mobile apps.
+
+By the end of this guide, you’ll be equipped with the skills to start building your own apps and continue your Flutter journey with confidence. Let’s get started on building your first Flutter app!
+
+## Code Blocks
+
+Flutter basic app
+
+```dart:flutter-main.dart
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: MyHomePage(),
+    );
+  }
+}
+
+class MyHomePage extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Hello Flutter'),
+      ),
+      body: Center(
+        child: Text(
+          'Welcome to Flutter!',
+          style: TextStyle(fontSize: 24),
+        ),
+      ),
+    );
+  }
+}
+
+```
+
+## What does this code do?
+
+    - main(): This is the entry point of the Flutter app. It runs the MyApp widget.
+    - MyApp: A stateless widget that builds the overall structure of the app. It sets up a MaterialApp with a title, theme, and MyHomePage as the home screen.
+    - MyHomePage: This widget displays a simple screen with an app bar and a centered text saying "Welcome to Flutter!"
+
+![profil](/static/images/profil.png)
+
+### Blocknote
+
+As kayne West said:
+
+> We're living in future so
+> the present is our past
+
+Here is the simple app with flutter[^1].
+
+[^1]: [Flutter](https://www.flutter.dev/)
+
+## Conclusion
+
+This is a perfect starting point to experiment with Flutter widgets and understand the core principles. Let me know if you need more details or further code examples!
