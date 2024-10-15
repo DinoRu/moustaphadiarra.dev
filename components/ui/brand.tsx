@@ -12,34 +12,21 @@ import Java from 'icons/java.svg'
 import Javascript from 'icons/javascript.svg'
 import JWT from 'icons/jsonwebtokens.svg'
 import Koa from 'icons/koa.svg'
-// import Liquid from 'icons/liquid.svg'
+
 import Markdown from 'icons/markdown.svg'
 import MongoDB from 'icons/mongodb.svg'
 import MySQL from 'icons/mysql.svg'
-// import NextJS from '/icons/nextjs.svg'
+
 import Node from 'icons/nodejs.svg'
 import Npm from 'icons/npm.svg'
 import OpenAI from 'icons/openai.svg'
 import { React } from '../lib/social-icons/icons'
-// import Picsum from 'icons/picsum.svg'
+
 import Prisma from 'icons/prisma.svg'
-// import Pygame from 'icons/pygame.svg'
+
 import Python from 'icons/python.svg'
 import Railway from 'icons/railway.svg'
-// import React from 'icons/react.svg'
-// import Remix from 'icons/remix.svg'
-// import RottenTomatoes from 'icons/rottentomatoes.svg'
-// import SemanticUI from '~/icons/semanticui.svg'
-// import Shopify from '~/icons/shopify.svg'
-// import Spotify from '~/icons/spotify.svg'
-// import TailwindCSS from '~/icons/tailwind.svg'
-// import Turborepo from '~/icons/turborepo.svg'
-// import Typescript from '~/icons/typescript.svg'
-// import Flutter from 'icons/flutter.svg'
-import VSCode from 'icons/visualstudiocode.svg'
 import IOS from 'icons/ios.svg'
-import AndroidStudio from 'icons/android-studio.svg'
-// import Android from 'icons/android.svg'
 import Umami from 'icons/umami.svg'
 import Vercel from 'icons/vercel.svg'
 import Webpack from 'icons/webpack.svg'
@@ -59,10 +46,6 @@ export const BrandsMap = {
     Icon: Goodreads,
     url: 'https://www.goodreads.com/',
   },
-  //   Remix: {
-  //     Icon: Remix,
-  //     url: 'https://remix.run',
-  //   },
   Git: {
     Icon: Git,
     url: 'https://git-scm.com',
@@ -91,10 +74,7 @@ export const BrandsMap = {
     Icon: Bash,
     url: 'https://www.gnu.org/software/bash',
   },
-  //   Liquid: {
-  //     Icon: Liquid,
-  //     url: 'https://shopify.dev/docs/api/liquid',
-  //   },
+
   Markdown: {
     Icon: Markdown,
     url: 'https://www.markdownguide.org',
@@ -123,34 +103,15 @@ export const BrandsMap = {
     Icon: Railway,
     url: 'https://railway.app',
   },
-  //   Spotify: {
-  //     Icon: Spotify,
-  //     url: 'https://spotify.com',
-  //   },
+
   OpenAI: {
     Icon: OpenAI,
     url: 'https://openai.com',
   },
-  //   Turborepo: {
-  //     Icon: Turborepo,
-  //     url: 'https://turborepo.org',
-  //   },
   Hydrogen: {
     Icon: Hydrogen,
     url: 'https://hydrogen.shopify.dev/',
   },
-  //   Shopify: {
-  //     Icon: Shopify,
-  //     url: 'https://shopify.dev',
-  //   },
-  //   Polaris: {
-  //     Icon: Shopify,
-  //     url: 'https://polaris.shopify.com/',
-  //   },
-  //   ThemeKit: {
-  //     Icon: Shopify,
-  //     url: 'https://shopify.dev/docs/storefronts/themes/tools/theme-kit',
-  //   },
   HeadlessUI: {
     Icon: HeadlessUI,
     url: 'https://headlessui.dev',
@@ -179,22 +140,12 @@ export const BrandsMap = {
     Icon: Python,
     url: 'https://www.python.org',
   },
-  //   Pygame: {
-  //     Icon: Pygame,
-  //     url: 'https://www.pygame.org',
-  //   },
+
   Exercism: {
     Icon: Exercism,
     url: 'https://exercism.org',
   },
-  //   SemanticUI: {
-  //     Icon: SemanticUI,
-  //     url: 'https://semantic-ui.com',
-  //   },
-  //   Picsum: {
-  //     Icon: Picsum,
-  //     url: 'https://picsum.photos',
-  //   },
+
   Java: {
     Icon: Java,
     url: 'https://java.com',
@@ -203,10 +154,7 @@ export const BrandsMap = {
     Icon: MySQL,
     url: 'https://mysql.com',
   },
-  //   RottenTomatoes: {
-  //     Icon: RottenTomatoes,
-  //     url: 'https://www.rottentomatoes.com/',
-  //   },
+
   IMBb: {
     Icon: IMBb,
     url: 'https://www.imdb.com/',
