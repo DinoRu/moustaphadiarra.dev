@@ -1,7 +1,5 @@
 import { useEffect, useState } from 'react'
 
-import siteMetadata from '@/data/siteMetadata'
-
 const ScrollTopAndComment = ({ showScrollToComment = true }: { showScrollToComment?: boolean }) => {
   const [show, setShow] = useState(false)
 

@@ -1,7 +1,7 @@
 import clsx from 'clsx'
 import { Image } from './ui/image'
 import { Minus, Plus } from 'lucide-react'
-import { CareerTimeline } from './CareerTimeLine'
+
 import { Link } from './ui/link'
 import { GrowingUnderline } from './blog/growing-underline'
 
