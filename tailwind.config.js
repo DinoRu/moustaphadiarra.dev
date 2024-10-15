@@ -97,21 +97,5 @@ module.exports = {
       }),
     },
   },
-  plugins: [
-    require('@tailwindcss/forms'), 
-    require('@tailwindcss/typography'),
-    addVariablesForColors
-  ],
-}
-
-// @ts-ignore
-function addVariablesForColors({ addBase, theme }: any) {
-  let allColors = flattenColorPalette(theme("colors"));
-  let newVars = Object.fromEntries(
-    Object.entries(allColors).map(([key, val]) => [`--${key}`, val])
-  );
- 
-  addBase({
-    ":root": newVars,
-  });
+  plugins: [require('@tailwindcss/forms'), require('@tailwindcss/typography')],
 }
