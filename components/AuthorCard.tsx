@@ -3,7 +3,7 @@ import SocialIcon from './social-icons'
 import siteMetadata from '@/data/siteMetadata'
 
 const AuthorCard = ({ content }) => {
-  const { avatar, occupation, company, email, github, location } = siteMetadata
+  const { author, avatar, occupation, company, email, github, location } = siteMetadata
 
   return (
     <div>
@@ -25,11 +25,15 @@ const AuthorCard = ({ content }) => {
                   text-2xl
                   font-bold leading-8 tracking-tight sm:text-3xl md:text-4xl"
           >
-            {content.author}
+            {author}
           </h3>
-          <div className="md:text-md text-base text-gray-500 dark:text-gray-400">{occupation}</div>
-          <div className="md:text-md text-base text-gray-500 dark:text-gray-400">{company}</div>
-          <div className="md:text-md text-base text-gray-500 dark:text-gray-400">{location}</div>
+          <div className="mt-5">
+            <div className="md:text-md text-base text-gray-500 dark:text-gray-400">
+              {occupation}
+            </div>
+            <div className="md:text-md text-base text-gray-500 dark:text-gray-400">{company}</div>
+            <div className="md:text-md text-base text-gray-500 dark:text-gray-400">{location}</div>
+          </div>
           <div className="flex space-x-3 pt-6">
             <SocialIcon kind="mail" href={`mailto:${email}`} />
             <SocialIcon kind="github" href={`mailto:${github}`} />

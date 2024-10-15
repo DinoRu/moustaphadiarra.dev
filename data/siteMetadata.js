@@ -7,7 +7,7 @@ const siteMetadata = {
   description: "Software Engineer's Blog",
   occupation: 'Software Engineer',
   company: 'ДагЭнержи',
-  location: 'Moscow, Russia',
+  location: 'Russia 🇷🇺',
   openToWork: true,
   language: 'en-us',
   theme: 'system', // system, dark or light
