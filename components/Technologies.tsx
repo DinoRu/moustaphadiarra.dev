@@ -3,12 +3,7 @@
 import { Button } from './ui/button'
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from './ui/card'
 
-import {
-  TouchProvider,
-  HybridTooltip,
-  HybridTooltipTrigger,
-  HybridTooltipContent,
-} from './ui/hibrid-tooltips'
+import { TouchProvider } from './ui/hibrid-tooltips'
 
 import { LuChevronLeft as ChevronLeft } from 'react-icons/lu'
 import { LuChevronRight as ChevronRight } from 'react-icons/lu'
