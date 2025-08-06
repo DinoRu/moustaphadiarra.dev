@@ -1,7 +1,11 @@
+'use client'
+
 import Link from '@/components/Link'
 import Tag from '@/components/Tag'
 import siteMetadata from '@/data/siteMetadata'
+import { motion } from 'framer-motion'
 import { formatDate } from 'pliny/utils/formatDate'
+import { use } from 'react'
 
 const MAX_DISPLAY = 5
 
@@ -15,7 +19,7 @@ export default function Home({ posts }) {
         font-extrabold leading-9 tracking-tight sm:text-3xl 
         sm:leading-10 md:text-4xl md:leading-14"
           >
-            Recents posts
+            Recent posts
           </h1>
         </div>
         <ul className="divide-y divide-gray-200 dark:divide-gray-700">
@@ -23,7 +27,7 @@ export default function Home({ posts }) {
           {posts.slice(0, MAX_DISPLAY).map((post) => {
             const { slug, date, title, summary, tags } = post
             return (
-              <li key={slug} className="py-12">
+              <motion.li key={slug} className="py-12" whileHover={{ scale: 1.04 }}>
                 <article>
                   <div className="space-y-2 xl:grid xl:grid-cols-4 xl:items-baseline xl:space-y-0">
                     <dl>
@@ -65,7 +69,7 @@ export default function Home({ posts }) {
                     </div>
                   </div>
                 </article>
-              </li>
+              </motion.li>
             )
           })}
         </ul>
