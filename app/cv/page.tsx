@@ -4,11 +4,6 @@
 import { useRef } from 'react'
 import html2pdf from 'html2pdf.js'
 
-export const metadata = {
-  title: 'Mon CV – Moustapha Diarra',
-  description: 'Découvrez mon parcours professionnel, mes compétences et mon expérience.',
-}
-
 export default function CVPage() {
   const cvRef = useRef<HTMLDivElement>(null)
 
